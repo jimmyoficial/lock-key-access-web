@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,7 +62,18 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Cores personalizadas para o site de chaveiro
+				locksmith: {
+					'blue-dark': '#1A1F2C',
+					'blue': '#0FA0CE',
+					'gold': '#E4B254',
+					'gray': '#8E9196',
+					'light': '#F1F1F1'
 				}
+			},
+			fontFamily: {
+				sans: ['Poppins', 'sans-serif'],
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
