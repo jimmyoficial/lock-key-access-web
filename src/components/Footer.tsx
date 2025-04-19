@@ -1,6 +1,5 @@
-
 import React from 'react';
-import { Phone, Mail, MapPin, Clock, Facebook, Instagram, Linkedin } from 'lucide-react';
+import { Phone, Mail, MapPin, Clock, Facebook, Instagram, Linkedin, Share2 } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
@@ -10,7 +9,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Column 1 - About */}
           <div>
-            <h3 className="text-xl font-bold mb-4">Chaveiro<span className="text-locksmith-blue">24h</span></h3>
+            <h3 className="text-xl font-bold mb-4">Chaveiro Perto de Você</h3>
             <p className="text-gray-300 mb-4">
               Serviço de chaveiro profissional com atendimento 24 horas para emergências. Oferecemos soluções rápidas e confiáveis para todas as suas necessidades.
             </p>
@@ -23,6 +22,9 @@ const Footer = () => {
               </a>
               <a href="https://linkedin.com" aria-label="LinkedIn" className="text-white hover:text-locksmith-gold transition-colors">
                 <Linkedin size={20} />
+              </a>
+              <a href="#" aria-label="Compartilhar" className="text-white hover:text-locksmith-gold transition-colors">
+                <Share2 size={20} />
               </a>
             </div>
           </div>

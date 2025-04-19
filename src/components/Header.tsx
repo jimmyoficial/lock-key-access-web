@@ -1,6 +1,5 @@
-
 import React, { useState } from 'react';
-import { Menu, X, Phone } from 'lucide-react';
+import { Menu, X, Phone, Key, Share2 } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const Header = () => {
@@ -16,8 +15,9 @@ const Header = () => {
         <div className="flex justify-between items-center">
           {/* Logo */}
           <div className="flex items-center">
-            <Link to="/" className="text-2xl font-bold text-locksmith-blue-dark">
-              Chaveiro<span className="text-locksmith-blue">24h</span>
+            <Link to="/" className="text-2xl font-bold text-locksmith-blue-dark flex items-center">
+              <Key className="mr-2" size={24} />
+              Chaveiro Perto de Você
             </Link>
           </div>
 
