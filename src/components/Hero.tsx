@@ -5,11 +5,11 @@ import { Phone, Shield, Clock } from 'lucide-react';
 const Hero = () => {
   return (
     <section className="relative bg-locksmith-blue-dark text-white py-24">
-      {/* Background Overlay */}
+      {/* Background Overlay with Image */}
       <div 
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-20" 
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-25" 
         style={{ 
-          backgroundImage: "url('/lovable-uploads/9ad01e84-6553-4d6e-b6ab-730a9c5e110b.png')" 
+          backgroundImage: `url('/lovable-uploads/9ad01e84-6553-4d6e-b6ab-730a9c5e110b.png')` 
         }}
       ></div>
       
