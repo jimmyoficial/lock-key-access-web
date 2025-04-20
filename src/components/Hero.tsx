@@ -8,7 +8,9 @@ const Hero = () => {
       {/* Background Overlay */}
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-20" 
-        style={{ backgroundImage: "url('https://images.unsplash.com/photo-1587560699189-6df7d4b95efb?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80')" }}
+        style={{ 
+          backgroundImage: "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80')" 
+        }}
       ></div>
       
       {/* Content */}
